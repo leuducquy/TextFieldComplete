@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QuyTableViewCell.h
 //  LanTextField
 //
 //  Created by quy on 12/3/16.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-
+@interface QuyTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
-

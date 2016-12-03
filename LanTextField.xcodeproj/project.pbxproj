@@ -13,6 +13,10 @@
 		F2B98FAF1DF2CFAB00E16BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B98FAD1DF2CFAB00E16BDE /* Main.storyboard */; };
 		F2B98FB11DF2CFAB00E16BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B98FB01DF2CFAB00E16BDE /* Assets.xcassets */; };
 		F2B98FB41DF2CFAB00E16BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B98FB21DF2CFAB00E16BDE /* LaunchScreen.storyboard */; };
+		F2B98FBE1DF2CFED00E16BDE /* ExTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B98FBC1DF2CFED00E16BDE /* ExTableViewCell.m */; };
+		F2B98FBF1DF2CFED00E16BDE /* ExTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B98FBD1DF2CFED00E16BDE /* ExTableViewCell.xib */; };
+		F2B98FC31DF2ED8400E16BDE /* QuyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B98FC11DF2ED8400E16BDE /* QuyTableViewCell.m */; };
+		F2B98FC41DF2ED8400E16BDE /* QuyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B98FC21DF2ED8400E16BDE /* QuyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		F2B98FB01DF2CFAB00E16BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2B98FB31DF2CFAB00E16BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B98FB51DF2CFAB00E16BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B98FBB1DF2CFED00E16BDE /* ExTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExTableViewCell.h; sourceTree = "<group>"; };
+		F2B98FBC1DF2CFED00E16BDE /* ExTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExTableViewCell.m; sourceTree = "<group>"; };
+		F2B98FBD1DF2CFED00E16BDE /* ExTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExTableViewCell.xib; sourceTree = "<group>"; };
+		F2B98FC01DF2ED8400E16BDE /* QuyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuyTableViewCell.h; sourceTree = "<group>"; };
+		F2B98FC11DF2ED8400E16BDE /* QuyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuyTableViewCell.m; sourceTree = "<group>"; };
+		F2B98FC21DF2ED8400E16BDE /* QuyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +73,16 @@
 				F2B98FAA1DF2CFAB00E16BDE /* ViewController.h */,
 				F2B98FAB1DF2CFAB00E16BDE /* ViewController.m */,
 				F2B98FAD1DF2CFAB00E16BDE /* Main.storyboard */,
+				F2B98FBD1DF2CFED00E16BDE /* ExTableViewCell.xib */,
 				F2B98FB01DF2CFAB00E16BDE /* Assets.xcassets */,
 				F2B98FB21DF2CFAB00E16BDE /* LaunchScreen.storyboard */,
 				F2B98FB51DF2CFAB00E16BDE /* Info.plist */,
 				F2B98FA41DF2CFAB00E16BDE /* Supporting Files */,
+				F2B98FBB1DF2CFED00E16BDE /* ExTableViewCell.h */,
+				F2B98FBC1DF2CFED00E16BDE /* ExTableViewCell.m */,
+				F2B98FC01DF2ED8400E16BDE /* QuyTableViewCell.h */,
+				F2B98FC11DF2ED8400E16BDE /* QuyTableViewCell.m */,
+				F2B98FC21DF2ED8400E16BDE /* QuyTableViewCell.xib */,
 			);
 			path = LanTextField;
 			sourceTree = "<group>";
@@ -137,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B98FBF1DF2CFED00E16BDE /* ExTableViewCell.xib in Resources */,
 				F2B98FB41DF2CFAB00E16BDE /* LaunchScreen.storyboard in Resources */,
+				F2B98FC41DF2ED8400E16BDE /* QuyTableViewCell.xib in Resources */,
 				F2B98FB11DF2CFAB00E16BDE /* Assets.xcassets in Resources */,
 				F2B98FAF1DF2CFAB00E16BDE /* Main.storyboard in Resources */,
 			);
@@ -150,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B98FBE1DF2CFED00E16BDE /* ExTableViewCell.m in Sources */,
 				F2B98FAC1DF2CFAB00E16BDE /* ViewController.m in Sources */,
 				F2B98FA91DF2CFAB00E16BDE /* AppDelegate.m in Sources */,
+				F2B98FC31DF2ED8400E16BDE /* QuyTableViewCell.m in Sources */,
 				F2B98FA61DF2CFAB00E16BDE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
